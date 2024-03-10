@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Pendaftaran</title>
+    <link rel="stylesheet" href="dist/css/form.css" />
+  </head>
+  <body>
+    <h2>Form Daftar</h2>
+    <form action="#" method="POST" enctype="multipart/form-data">
+      <label for="nama">Nama:</label><br />
+      <input type="text" id="nama" name="nama" /><br /><br />
+
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" /><br /><br />
+
+      <label for="nomor_hp">Nomor HP:</label><br />
+      <input type="tel" id="nomor_hp" name="nomor_hp" /><br /><br />
+
+      <label>Jenis Kelamin:</label><br />
+      <input type="radio" id="laki-laki" name="jenis_kelamin" value="Laki-laki" /><label for="laki-laki">Laki-laki</label><br />
+      <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan" />
+      <label for="perempuan">Perempuan</label><br /><br />
+
+      <label>Tujuan</label><br />
+      <input type="checkbox" id="tujuan1" name="tujuan[]" value="Gili Terawangan" />
+      <label for="tujuan1">Gili Terawangan</label><br />
+      <input type="checkbox" id="tujuan2" name="tujuan[]" value="Gili Kondo" />
+      <label for="tujuan2">Gili Kondo</label><br />
+      <input type="checkbox" id="tujuan3" name="tujuan[]" value="Menulis" />
+      <label for="tujuan3">Pantai Kuta</label><br />
+      <input type="checkbox" id="tujuan4" name="tujuan[]" value="menyanyi" />
+      <label for="tujuan4">Pantai Kenawa</label><br />
+      <input type="checkbox" id="tujuan5" name="tujuan[]" value="menyanyi" />
+      <label for="tujuan5">Pantai Sengigi</label><br />
+      <input type="checkbox" id="tujuan5" name="tujuan[]" value="menyanyi" />
+      <label for="tujuan6">pantai pink</label><br /><br />
+
+      <label for="alamat">Alamat:</label><br />
+      <textarea id="alamat" name="alamat" rows="4" cols="50"></textarea><br /><br />
+
+      <label for="foto">Foto:</label><br />
+      <input type="file" id="foto" name="foto" /><br /><br />
+      
+      <a href="jsdasar.html">
+        <input type="submit"  />
+    </a>
+      
+    </form>
+  </body>
+</html>
